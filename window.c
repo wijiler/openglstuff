@@ -1,9 +1,7 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 
-void display()
-{
-}
+void render(void);
 
 int main(int argc, char **argv)
 {
@@ -13,6 +11,9 @@ int main(int argc, char **argv)
   glutInitWindowSize(640,480);
   glutCreateWindow("editor or smth");
   
-  glutDisplayFunc(display);
+  glutDisplayFunc(render);
   glutMainLoop();
+}
+
+void render(void) {
 }
