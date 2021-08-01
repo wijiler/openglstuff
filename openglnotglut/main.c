@@ -14,6 +14,8 @@
 #define SCREEN_HEIGHT 768
 #define MANUAL_TIME_STEP 0.1
 
+// this is tsoding's template heavily edited I did not program this
+
 bool program_failed = false;
 bool pause = false;
 double time = 0.0;
